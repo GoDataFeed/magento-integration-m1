@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright 2019 Method Merchant, LLC or its affiliates. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License").
+  ~ You may not use this file except in compliance with the License.
+  ~ A copy of the License is located at
+  ~
+  ~ http://aws.amazon.com/apache2.0
+  ~
+  ~ or in the "license" file accompanying this file. This file is distributed
+  ~ on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+  ~ express or implied. See the License for the specific language governing
+  ~ permissions and limitations under the License.
+  ~
+  -->
+<config>
+	<modules>
+		<GoDataFeed_Services>
+			<version>2.0.0</version> <!-- THIS ABSOLUTELY NEEDS TO BE IN SYNC WITH Version/Api.php -->
+		</GoDataFeed_Services>
+	</modules>
+	<global>
+		<models>
+			<godatafeed_services>
+				<class>GoDataFeed_Services_Model</class>
+			</godatafeed_services>
+		</models>
+		<helpers>
+			<godatafeed_services>
+				<class>GoDataFeed_Services_Helper</class>
+			</godatafeed_services>
+		</helpers>
+	</global>
+</config>

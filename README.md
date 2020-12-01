@@ -18,7 +18,7 @@ Please follow the instructions in the [User Guide](https://help.godatafeed.com/h
 
 ## Release Notes
 
-### [v2.0.0 launch](https://github.com/GoDataFeed/integration-m1/releases/tag/v2.0.0)
+### [v2.0.0 launch](https://github.com/GoDataFeed/magento-integration-m1/releases/tag/v2.0.0)
 
 #### Enhancements
 
